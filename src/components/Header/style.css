@@ -1,0 +1,18 @@
+.header{ height: 40px; background-color: #232526;}
+.header_top_home,.header_top_name,.header_top_balance_show{ line-height: 40px; }
+.header_top_home{ margin-right: 45px; }
+.header_top_name{ margin-right: 30px;}
+.header_top_balance_show{ margin-right: 20px;}
+
+icon{display: block;  background: url(../images/icon.png) no-repeat; }
+icon.home{ background-position: 0 0;  width: 16px; height: 16px; margin:12px 5px 0 0;}
+icon.game_name{ background-position:0 -16px;  width: 16px; height: 16px;  margin:12px 5px 0 0;}
+icon.down{ background-position:0 -32px;  width: 16px; height: 16px; }
+
+
+.header_top_total_other_select{ position: relative; }
+.header_top_other_select_default_show{ position: relative;  cursor: pointer; margin-top: 8px;  border:1px solid #f7e6b0; width: 97px; height: 24px; line-height: 24px; text-indent: 8px;  }
+.header_top_other_select_default_show .down{ position: absolute; right: 3px; top:5px;}
+.header_top_other_select_list{ position: absolute; left: -20px; top:40px; width: 170px; height: auto; background-color: #232526; border-bottom: 2px solid #f7e6b0; }
+.header_top_other_select_list ul{ padding:5px 10px;}
+.header_top_other_select_list ul li{ line-height: 30px; }

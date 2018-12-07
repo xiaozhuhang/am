@@ -1,0 +1,90 @@
+body,ul,li,div,p{
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container{ width: 1200px; margin-left:auto; margin-right:auto;}
+.fl{ float: left; }
+.fr{ float: right;}
+a,a:hover{ text-decoration: none; }
+img{ display: block; }
+ul,li{ list-style: none;}
+.clearfix:after{
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+
+}
+.clearfix{ zoom: -1;}
+
+
+/* 显示隐藏 */
+.show{ display: block;}
+.hide{ display: none; }
+
+
+/* 字体颜色 */
+/* 灰色 */
+.col1{ color:#bdbdbd;}
+/* 白色 */
+.col2{ color:#fff; }
+/* 金色 */
+.col3{color:#f7e6b0;}
+
+
+/* 字体大小 */
+
+.f12{ font-size: 12px; }
+.f13{ font-size: 13px; }
+.f14{ font-size: 14px; }
+.f15{ font-size: 15px; }
+.f16{ font-size: 16px; }
+.f17{ font-size: 17px; }
+.f18{ font-size: 18px; }
+.f19{ font-size: 19px; }
+.f20{ font-size: 20px; }
+.f21{ font-size: 21px; }
+.f22{ font-size: 22px; }
+
+/* 字体靠左靠右居中 */
+.tl{ text-align: left;}
+.tc{ text-align: center;}
+.tr{ text-align: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
